@@ -1,12 +1,13 @@
 import React from 'react';
 import { array } from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const RepoList = (props) => {
 
     const tableRows = props.userrepos.map((repo) => {
         return (
             <tr key={repo.id}>
-                <td>{repo.name}</td>
+                <td><Link to={`/repos/${repo.id}`}>{repo.name}</Link></td>
             </tr>
         )
     })
