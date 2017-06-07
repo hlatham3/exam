@@ -19,7 +19,7 @@ Please write your answer [here](./map.js)
 2. What is a React `component`?
 
 ---
-> Your answer here... It is an object within the react framework that we use to call from other components that ties the DOM to the virtual dom that we can render.  Once we change this to a class, we can use this to pass data between areas on a UI and only reder those areas.  For example:  Const MyContainer React.Component {} or Class MyContainer = () => {}
+> Your answer here... It is an object within the react framework that we use to call from other components that ties the DOM to the virtual dom that we can render.  Once we change this to a class, we can use this to pass data between areas on a UI and only reder those areas.  For example:  Class MyContainer React.Component {} or Const MyContainer = () => {}
 ---
 
 3. You can define a React component a few different ways, including (1) as a simple function or (2) as a class that extends the `Component` piece of the React library. How should you decide when to use which syntax?
